@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Placar do Jogo</title>
+</head>
+<body>
+    <h2>Resultado da Partida</h2>
+
+    <?php
+    $time1 = "Flamengo";
+    $golsTime1 = 3;
+
+    $time2 = "Palmeiras";
+    $golsTime2 = 1;
+
+    echo "<p><strong>$time1</strong> $golsTime1 x $golsTime2 <strong>$time2</strong></p>";
+
+    if ($golsTime1 > $golsTime2) {
+        echo "<p>Vitória do 1º time ($time1)!</p>";
+    } elseif ($golsTime2 > $golsTime1) {
+        echo "<p>Vitória do 2º time ($time2)!</p>";
+    } else {
+        echo "<p>Houve um empate!</p>";
+    }
+    ?>
+
+    
+</body>
+</html>
+
