@@ -1,0 +1,19 @@
+1- Qual é a função de uma condição dentro da programação?
+Permite que o programa tome decisões e altere o seu fluxo de execução com base no resultado de um teste lógico (que retorna verdadeiro ou falso).
+
+2- Explique sobre o bloco if e else;
+if (se): Executa um bloco de código caso uma determinada condição seja verdadeira.
+else (senão): Executa um bloco de código alternativo caso a condição do if seja falsa.
+
+3- Qual é a diferença entre o if e Switch?
+if: É mais flexível, permitindo testar condições complexas com operadores lógicos e de comparação (ex.: >, <, &&, ||).
+switch: É ideal para testar múltiplos valores exatos de uma única variável de forma mais limpa e organizada, funcionando como uma lista de casos (case).
+
+4- Aonde aplicamos os comandos de fluxo de controle for e while?
+for: Aplicado quando se sabe previamente o número de repetições que devem ser executadas (ex.: percorrer uma lista de tamanho fixo ou rodar um código 10 vezes).
+while: Aplicado quando não se sabe exatamente quantas vezes o laço irá rodar, dependendo de uma condição ser verdadeira para continuar executando.
+
+5- Qual é a função do laço de repetição na programação?
+Sua função é executar um mesmo bloco de código várias vezes seguidas enquanto uma condição for atendida, evitando a repetição manual de linhas de código e otimizando o programa.
+
+//recrama não//
